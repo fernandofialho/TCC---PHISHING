@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Validador de URL",
+  "version": "1.0",
+  "description": "Verifica se uma URL é legítima ou possivelmente de phishing.",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
